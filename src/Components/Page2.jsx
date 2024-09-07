@@ -2,7 +2,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import ProgressBar from "./Progressbar";
 
 const Page2 = () => {
   const containerRef = useRef(null);
